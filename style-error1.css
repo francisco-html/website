@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: firebrick;
+    font-size: 50px;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    background-color: brown;
+    color:rgb(255, 196, 196);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(232, 215, 255);
+    font-size: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,55 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color: aquamarine;
+    border-color: rgba(0, 0, 0, 0.075);
+    color: rgba(0, 0, 0, 0.973);
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(180, 92%, 85%);
+    border-color: black;
+    font-size:40px;
+    user-select: none;
+    cursor: default;
+}
+
+
+/* Celulares */
+@media(min-width:320px) and (max-width: 768px) {
+    h1 {
+        transform: translateX(45%);
+        height: 95%;
+        display: flex;
+    }
+
+    button {
+        transform: translateX(-120%);
+        display: grid;
+    }
+
+}
+
+/* Tablets */
+
+@media(min-width:768) and (max-width: 1368px) {
+
+}
