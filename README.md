@@ -1,1 +1,1 @@
-" caso tenha alguma alteração eu falo aqui" 
+"havéra alterações no design do site" 
